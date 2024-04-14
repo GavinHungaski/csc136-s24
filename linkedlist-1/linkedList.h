@@ -10,11 +10,15 @@ struct node{
   node *next;
 };
 
+
 class linkedList
 {
  public:
   linkedList();
   
+  void insertAtEnd(int x);
+
+  void print() const;
 
  private:
   node *head;
